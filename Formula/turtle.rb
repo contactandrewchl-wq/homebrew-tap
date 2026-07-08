@@ -1,28 +1,28 @@
 class Turtle < Formula
   desc "Memoria persistente y coordinación multi-agente para CLIs de IA (MCP local-first)"
   homepage "https://github.com/contactandrewchl-wq/turtle-mcp"
-  version "0.1.11"
+  version "0.1.12"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.11/turtle-aarch64-apple-darwin.tar.gz"
-      sha256 "537f035ff06e58f90fb462cbc73e6a9b208247850d8e31cb43c4191a8076936a"
+      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.12/turtle-aarch64-apple-darwin.tar.gz"
+      sha256 "34eccea1c3a9381a6e6ad4edc435092a752671c98c2223e9a6b76ee6eb6aa83d"
     end
     on_intel do
-      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.11/turtle-x86_64-apple-darwin.tar.gz"
-      sha256 "ed2c9156ba0c62c723c5fbf56a5f6bc33c2212e1b257b941250249bf2cbad24c"
+      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.12/turtle-x86_64-apple-darwin.tar.gz"
+      sha256 "664f3c561061d6fb28f816616aa6f03e4dd95f196f2446593b42161199e0dc1e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.11/turtle-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "21ec8e61b6caff9e7a3539b539c5ae4a27adecb3aefb71ce097e36ebd7730390"
+      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.12/turtle-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "aca8887b6ed893abd891fa78010cf9923d19286f38b80d2497b180a6d4dbfe6d"
     end
     on_intel do
-      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.11/turtle-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "db802fca40fe8c34484e05598122732399a408462174ceafe28f0b539b355cbd"
+      url "https://github.com/contactandrewchl-wq/turtle-mcp/releases/download/v0.1.12/turtle-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f627055d357148f11e9ab88e8cbe0fb3451f58d6778c199b8fd480ebadd0158f"
     end
   end
 
